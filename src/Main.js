@@ -35,7 +35,7 @@ function Main() {
 
                 <div class="card-2">
                     <div className='card' name="Bruschetta" alt="Bruschetta">
-                        <img src="C:\Users\Bisma Nawaz\Downloads\Little lemon webApp\little\little-lemon\src\Bruschetta.png" alt="Bruschetta"/>
+                        <img src="Bruschetta.png" alt="Bruschetta"/>
                         <div className='card-header'>
                             <div>
                                 <p class='gs' alt="Bruschetta">Bruschetta</p>
@@ -46,7 +46,7 @@ function Main() {
                             </p>
                             <div className='card-footer'>
                                 <span>Order for delivery</span>
-                                <img src='little-lemon\src\delivery_dining_black_24dp.svg' alt="order for delivery"></img>
+                                <img src='delivery_dining_black_24dp.svg' alt="order for delivery"></img>
                             </div>
                         </div>
                     </div>
