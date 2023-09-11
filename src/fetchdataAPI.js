@@ -8,6 +8,5 @@ const fetchData = async (date) => {
       return [];
     }
   };
-  
+
   export default fetchData;
-  
