@@ -3,7 +3,7 @@ import React from "react";
 function Header() {
   return (
     <>
-      <img src="little-lemon\src\Restaurant Food (2).png" alt="Restaurant food" class = "food"/>
+      <img src="Restaurant Food (2).png" alt="Restaurant food" class = "food"/>
       <header>
         <div class='hheader'>
             <h1>Little Lemon</h1>

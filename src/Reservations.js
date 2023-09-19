@@ -8,7 +8,7 @@ export default function Reservations() {
     const navigate = useNavigate();
 
     useEffect(() => {
-        initializeTimes().then(times => setAvailableTimes(times));
+        initializeTimes().then(times => {setAvailableTimes(times);});
     }, []);
 
     const submitForm = async (formData) => {
@@ -24,7 +24,7 @@ export default function Reservations() {
     }
 
     return (
-        <div>
+        <div className={'reserve'}>
             <h1>Restaurant Reservation System</h1>
             <BookingForm availableTimes={availableTimes} setAvailableTimes={setAvailableTimes} submitForm={submitForm}/>
         </div>
@@ -93,7 +93,7 @@ function BookingForm(props) {
     };
 
     return (
-        <form onSubmit={handleSubmit} style={{display: 'grid', maxWidth: '200px', gap: '20px'}}>
+        <form onSubmit={handleSubmit} style={{display: 'grid', maxWidth: '450px', gap: '30px'}}>
             <label htmlFor="date">Choose date</label>
             <input
                 type="date"

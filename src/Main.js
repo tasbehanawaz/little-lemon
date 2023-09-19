@@ -14,7 +14,7 @@ function Main() {
             <section>
                 <div class = "card-1">
                     <div className='card' name="Greek salad">
-                        <img src = "little-lemon\src\Greek salad.png" alt="Greek Salad"></img>
+                        <img src = "Greek salad.png" alt="Greek Salad"></img>
                         <div className='card-header'>
                             <div>
                             <p class='gs' alt="Greek Salad">Greek Salad</p>
@@ -27,7 +27,7 @@ function Main() {
 
                             <div className='card-footer'>
                                 <span>Order for delivery</span>
-                                <img src="little-lemon\src\delivery_dining_black_24dp.svg" alt="order for delivery"></img>
+                                <img src="delivery_dining_black_24dp.svg" alt="order for delivery"></img>
                             </div>
                         </div>
                     </div>
@@ -53,8 +53,8 @@ function Main() {
                 </div>
 
                 <div class="card-3">
-                    <div className='card' name="Lemon dessert" alt="Lemon dessert">
-                        <img src="C:\Users\Bisma Nawaz\Downloads\Little lemon webApp\little\little-lemon\src\lemon dessert.jpg" alt="Lemon dessert"></img>
+                    <div className='card' alt="Lemon dessert">
+                        <img src="lemon dessert.jpg" alt="Lemon dessert"></img>
                         <div className='card-header'>
                             <div>
                                 <p class='gs' alt="Lemon dessert">Lemon Dessert</p>
@@ -65,7 +65,7 @@ function Main() {
                             </p>
                             <div className='card-footer'>
                                 <span>Order for delivery</span>
-                                <img src='little-lemon\src\delivery_dining_black_24dp.svg' alt="order for delivery"></img>
+                                <img src='delivery_dining_black_24dp.svg' alt="order for delivery"></img>
                             </div>
                         </div>
                     </div>
@@ -79,7 +79,7 @@ function Main() {
                 </div>
                 <div class="test-1">
                     <div class="container-test">
-                        <img src="little-lemon\src\Josh.png" alt="Josh" class="card-imagee"></img>
+                        <img src="Josh.png" alt="Josh" class="card-imagee"></img>
                         <p class="name">Name: Josh</p>
                         <p class="rev">Review: Good</p>
                         <div>
@@ -108,7 +108,7 @@ function Main() {
 
                 <div class="test-2">
                     <div class="container-test">
-                        <img src="little-lemon\src\Anna.png" alt="Anna" class="card-imagee"></img>
+                        <img src="Anna.png" alt="Anna" class="card-imagee"></img>
                         <p class="name">Name: Anna</p>
                         <p class="rev">Review: Excellent</p>
                         <div>
@@ -137,7 +137,7 @@ function Main() {
 
                 <div class="test-3">
                     <div class="container-test">
-                        <img src="little-lemon\src\Nick.png" alt="Nick" class="card-imagee"></img>
+                        <img src="Nick.png" alt="Nick" class="card-imagee"></img>
                         <p class="name">Name: Nick</p>
                         <p class="rev">Review: Good</p>
                         <div>
@@ -176,8 +176,8 @@ function Main() {
                     recipes served with a modern twist.
                 </p>
                 <div class="restaurant-img">
-                    <img src= "little-lemon\src\Mario and Adrian A.png" alt= "restaurant food" class = "res-1"></img>
-                    <img src= "little-lemon\src\Mario and Adrian B.png" alt= "restaurant food" class="res-2"></img>
+                    <img src= "Mario and Adrian A.png" alt= "restaurant food" class = "res-1"></img>
+                    <img src= "Mario and Adrian B.png" alt= "restaurant food" class="res-2"></img>
                 </div>
             </div>
         </main>
