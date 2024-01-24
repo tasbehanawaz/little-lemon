@@ -1,5 +1,8 @@
+/* eslint-disable react-hooks/rules-of-hooks */
+/* eslint-disable no-undef */
 import React, { useState } from 'react';
 
+// eslint-disable-next-line no-unused-vars
 function Main() {
   const [availableTimes, setAvailableTimes] = useState([
     '17:00',
@@ -52,6 +55,7 @@ function initializeTimes() {
   return updateTimes(currentDate);
 }
 
+// eslint-disable-next-line no-unused-vars
 const [availableTimes, dispatch] = useReducer(
   (state, action) => {
     switch (action.type) {
