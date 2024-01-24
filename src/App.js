@@ -3,6 +3,7 @@ import Root from "./Root"
 import Reservations from "./Reservations"
 import ConfirmedBooking from "./ConfirmedBooking"
 import './App.css';
+import Header from "./Header";
 
 
 const router = createBrowserRouter([
@@ -17,7 +18,12 @@ const router = createBrowserRouter([
     {
         path: "/booking/confirm",
         element: <ConfirmedBooking/>
-    }
+    },
+
+    {
+        path: "/header",
+        element: <Header/>
+    },
 ])
 
 function App() {
